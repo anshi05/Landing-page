@@ -29,7 +29,7 @@ This project is a clone of the BlueLearn landing page. It aims to replicate the 
 * Optimized for performance and accessibility
 
 ## Demo
-Check out the live demo of the Bluelearn Clone here.
+Check out the live demo of the Bluelearn Clone [here](https://drive.google.com/file/d/1uDjUpE9FSkO9GDht-ujDDIUYlLIrn0Fj/view?usp=sharing).
 
 ## Technologies Used
 
