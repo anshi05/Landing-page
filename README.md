@@ -1,17 +1,19 @@
-# Website Clone - BlueLearn Landing Page
+#TASK ID: Responsive Landing Page
+
+## Website Clone - BlueLearn Landing Page
 
 Welcome to the GitHub repository for the BlueLearn landing page clone. This README file contains detailed information about the project, including setup instructions, usage guidelines, and more.
 
 ### Table of Contents
 | Content  |
 | ------------  |
-| Project Overview  |
-| Features |
-| Demo |
-| Technologies Used |
-| Setup Instructions |
-| Usage |
-| Contact |
+| [Project Overview](https://github.com/anshi05/Landing-page/edit/main/README.md#project-overview)  |
+| [Features](https://github.com/anshi05/Landing-page/edit/main/README.md#features)|
+| [Demo](https://github.com/anshi05/Landing-page/edit/main/README.md#demo) |
+| [Technologies Used](https://github.com/anshi05/Landing-page/edit/main/README.md#technologies-used) |
+| [Setup Instructions](https://github.com/anshi05/Landing-page/edit/main/README.md#setup-instructions) |
+| [Usage](https://github.com/anshi05/Landing-page/edit/main/README.md#usage) |
+| [Contact](https://github.com/anshi05/Landing-page/edit/main/README.md#contact) |
 
 
 ## Project Overview
