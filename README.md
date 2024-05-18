@@ -7,13 +7,13 @@ Welcome to the GitHub repository for the BlueLearn landing page clone. This READ
 ### Table of Contents
 | Content  |
 | ------------  |
-| [Project Overview](https://github.com/anshi05/Landing-page/edit/main/README.md#project-overview)  |
-| [Features](https://github.com/anshi05/Landing-page/edit/main/README.md#features)|
-| [Demo](https://github.com/anshi05/Landing-page/edit/main/README.md#demo) |
-| [Technologies Used](https://github.com/anshi05/Landing-page/edit/main/README.md#technologies-used) |
-| [Setup Instructions](https://github.com/anshi05/Landing-page/edit/main/README.md#setup-instructions) |
-| [Usage](https://github.com/anshi05/Landing-page/edit/main/README.md#usage) |
-| [Contact](https://github.com/anshi05/Landing-page/edit/main/README.md#contact) |
+| [Project Overview](https://github.com/anshi05/Landing-page/blob/main/README.md#project-overview)  |
+| [Features](https://github.com/anshi05/Landing-page/blob/main/README.md#features)|
+| [Demo](https://github.com/anshi05/Landing-page/blob/main/README.md#demo) |
+| [Technologies Used](https://github.com/anshi05/Landing-page/blob/main/README.md#technologies-used) |
+| [Setup Instructions](https://github.com/anshi05/Landing-page/blob/main/README.md#setup-instructions) |
+| [Usage](https://github.com/anshi05/Landing-page/edit/blob/README.md#usage) |
+| [Contact](https://github.com/anshi05/Landing-page/edit/blob/README.md#contact) |
 
 
 ## Project Overview
