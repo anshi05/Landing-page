@@ -29,7 +29,7 @@ This project is a clone of the BlueLearn landing page. It aims to replicate the 
 ## Demo
 Check out the live demo of the Bluelearn Clone here.
 
-### Technologies Used
+## Technologies Used
 
 * HTML5: Markup language used for structuring the content.
 * CSS3: Styling the web page with a focus on layout, colors, and responsiveness.
