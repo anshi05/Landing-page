@@ -1,0 +1,1025 @@
+*{
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica;
+    border: border-box;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: rgb(16 17 20);
+}
+
+/* Apply custom styles to the scrollbar track and thumb */
+body::-webkit-scrollbar {
+    width: 0; 
+}
+
+/* -----------Navigation bar starts ---------------- */
+.nav-bar{
+    height: 5rem;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu,.company-name,.signup{
+    margin:2.5em;
+    margin-top:1em;
+    height:3em;
+   
+    text-align: center;
+    align-content: center;
+
+}
+
+.menu:hover, .company-name:hover{
+    background-color: #c5c5c5;
+}
+
+/* Company name on left side of nav-bar */
+.company-name{
+    width:10em;
+    a{
+        text-decoration: none;
+    }
+    p{
+        
+        color:#101114;
+        font-size:1.8em;
+        font-weight: 600;
+    }
+    span{
+        
+        color: #5169f6;
+    }
+
+}
+
+.menu, .company-name{
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.598);
+    
+}
+
+/* Middle section of nev-bar: MENU */
+.menu{
+    width: 32em;
+    align-items: center;
+    
+    p{
+        color: #101114;
+        font-weight: bold;
+    }
+    p:hover{
+        cursor:pointer;
+        color:#5169f6;
+    }
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Sign-up button on right side of nav-bar */
+.signup{
+    width:7em;
+    font-weight: bold;
+    background-color: #5169f6;
+    border-radius: .5em;
+}
+
+.signup:hover{
+    cursor: pointer;
+}
+/* --------------Navigation bar ends--------------- */
+
+
+/* -----------Introduction below nav-bar------------- */
+.intro{
+    background-color: #101114;
+    cursor:default;
+    height: 28rem;
+    text-align: center;
+    align-content:center;  
+}
+
+/* heading:Largest community of tomorrow's builders */
+.heading{
+    font-size: 3.3em;
+    font-weight: 600;
+    padding-bottom:.3em;   
+}
+
+/* description line below the heading*/
+.description{
+    font-size: 1.65em;
+    padding-top:.8em;
+    padding-bottom: 1em;   
+}
+/* download buttons of play store and app store */
+i{
+    color: rgb(16 17 20);
+    font-size: 1.2em;
+    padding-right:.2em;
+}
+
+.download{
+    color: rgb(16 17 20);
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: white;
+    border:none;
+    border-radius: 4em;
+    margin: .5em;
+    height:3.5em;
+    width:18em;
+    cursor: pointer;
+}
+/* -----------------Intro ends-------------- */
+
+
+/* -------------Main Content starts----------------- */
+
+/* about the page */
+.about, .feedback{
+    cursor:default;
+    margin-top:5em;
+    border:none;
+    background-color: white;
+    border-radius: 2em;
+    text-align: center;
+    padding-top:5em;
+}
+
+.about{
+    height: 162em;
+}
+
+ /* Community members box */
+.community-member{
+    height:18em;
+}
+
+.community-text{
+    font-size: 1em;
+    font-weight:500;
+    color:#373943;
+}
+
+.community-logos{
+    overflow: hidden;
+    border:0.1em solid #d5d5d9d9; 
+    height:9em;
+    margin:2.5em;
+    margin-top:1.5em;
+    border-radius: 6em;
+   
+
+}
+.running-logos{
+    white-space: nowrap;
+    display: flex;
+
+}
+
+/* running logos of community members */
+.running-logos{
+    height:2.5em;
+    width:98em;
+    margin-top:3.5em; 
+    gap:3em;
+    animation: moveContent 20s 0s linear infinite; 
+}
+
+/* Animation */
+@keyframes moveContent {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}
+
+.slide-text{
+    color:black;
+    font-size: 1.5em;
+  
+}
+
+
+/* things we can do on bluelearn */
+.to-do{
+    text-align: center;
+    height:101em;
+}
+
+.to-do-text{
+    color: #020817;
+}
+
+.mini-box{
+    text-align: start;
+    display: flex;
+    height:28em;
+    margin:2.5em;
+    border-radius: 2.5em;
+}
+
+/* box1:Learn by doing  */
+.box1{
+    background-color: #f0f2ff;
+    span{
+        color:#5169f6;
+    }
+    
+}
+
+.box1-image{
+    margin-left:5em;
+    margin-top:3em;
+    height:16.15em;
+    width:28em;
+    background-image: url(image/pic2.webp);
+    background-size: cover;
+}
+
+/* box2: Earn your next paycheck */ 
+.box2{
+    
+    background-color: #fff7e3;
+    span{
+        color:#b68c1a;
+    }
+    .mini-text,.mini-image{
+        height:15em;
+    }
+
+}
+
+.box2-image{
+    display:flex;
+    padding-top:4.5em;
+    padding-left: 8em;
+}
+
+
+.discussion-image{
+    height:9em;
+    width:22em;
+    
+}
+
+.discussion1{
+    position: relative;
+    z-index:3;
+  
+}
+
+.discussion2{
+    position: relative;
+    bottom:.75em;
+    right:21.2em;
+    z-index:2;
+}
+
+.discussion3{
+    position: relative;
+    right:42.4em;
+    bottom:1.5em;
+    z-index:1;
+}
+
+/* box 3: Network with smart people */
+.box3{
+    background-color: #f5f1fd;
+    span{
+        color:#590ce6;
+    }
+}
+
+.box3-image{
+   
+    height:21.5em;
+    width:21.2em;
+    margin-left:11em;
+    background-image: url(image/pic1.webp);
+    background-size: cover;
+    
+}
+
+.mini-text{
+    width:40%;
+    margin:3em;
+    margin-left:4em;
+    margin-right:0;
+    align-content: center;
+    text-wrap: wrap;
+    h2{
+        font-size: 2em;
+        color:#1c1c22;
+    }
+    p{  
+        
+        font-size: 1.5em;
+        padding-top:2em;
+        color:#020817;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    a{
+        color:#5169f6;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+.mini-image{
+    width:50%;
+   
+    margin:3em;
+    margin-left:0;
+}
+
+
+/* one place for 3 things */
+.one-place{
+
+    height:37.5em;
+    display:flex;
+    
+}
+
+/* side text */
+.side-scroll{
+   
+    width: 37em;
+   
+    align-content: center;
+    
+    
+    h3{
+        color: #020817;
+        font-size:2em;
+        
+    }
+    
+}
+
+/* download button */
+.down-button{
+    font-weight: 600;
+    align-content: center;
+    background-color: #5169f6;
+    height:3em;
+    width:18em;
+    border-radius: 2em;
+    margin: 2em 9em;
+    a{
+        text-decoration: none;
+    }
+    
+
+}
+
+/* image scroll */
+.main-scroll{ 
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;   
+}
+
+/* hiding scroll bar */
+.main-scroll::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.container{
+  
+    display: flex;
+    gap:4em;
+    width:143em;
+   
+}
+
+.slider{
+    transition: left 0.5s ease;
+    width:45em;
+    border-radius: 3em;
+    display: flex;
+    padding: 0em 2em;
+    
+}
+
+.con1{
+    background-color: #f1f1f4;
+    span{
+        color:#b68c1a;
+    }
+}
+.con2{
+    background-color: #f0f2ff;
+    span{
+        color:#5169f6;
+    }
+}
+.con3{
+    background-color: #fff7e3;
+    span{
+        color: #590ce6;
+    }
+}
+.con-image,.con-text{
+   
+   
+    width:50%;
+}
+.con-text{
+    align-content: center;
+    text-wrap: wrap;
+    text-align: start;
+    p{
+        color:#020817;
+        font-size:2em;
+        font-weight: 600;
+    }
+}
+.i1{
+    background-image: url(image/i1.webp);
+    background-size: cover;
+   
+    height:37em;
+}
+.i2{
+    background-image: url(image/i2.webp);
+    background-size: cover;
+   
+    height:37em;
+}
+.i3{
+    background-image: url(image/i3.webp);
+    background-size: cover;
+   
+    height:37em;
+}
+
+/* NUMERICAL DATA: numbers  that matter  */
+.data{
+    text-align: center;
+    background-color: transparent;
+    height:33em;
+    
+}
+
+/* HEading:numbers that matter */
+.number-text{
+    font-size: 1em;
+    padding-top: 4em;
+}
+
+.number{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:3.5em;
+    gap:4em;
+    justify-content: center;
+}
+
+/* three blocks */
+.mini-num{
+    width:18em;
+    height:20em;
+    border-radius: 2.5em;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.num1{
+    background-color: #c09ffb;
+}
+.num2{
+    background-color: #a4eba4;
+}
+.num3{
+    background-color: #fddf8e;
+}
+
+.num-data,.num-text{
+    color:rgb(16 17 20);
+    
+}
+
+.num-data{
+    font-size:3em;
+}
+
+.num-text{
+    word-wrap: break-word;
+    width:15em;
+    padding-top: 1em;
+    padding-left:1.4em;
+}
+
+#logo{
+    font-size: 5em;
+    padding-bottom:.2em;
+}
+
+/* community feedback messages */
+.feedback{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 90em;  
+}
+
+.feedback-text{
+    h2{
+        color:#020817;
+        font-size: 2em;
+    }  
+}
+
+.feedback-image{
+    height:40em;
+    margin: 4em 0; 
+    display: flex;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;   
+}
+
+.feedback-image::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.runner{
+    display: flex;
+    gap:1em;   
+}
+
+.chat{  
+    width:21em;
+    align-content: center;
+}
+
+/* message boxes */
+.chatbot{
+   
+    border-radius: 2em;
+    margin-top:1em;
+    text-wrap: wrap;
+    text-align: start;
+    padding:1em;
+    p{
+        color:#535565;
+        margin-left:1.5em;
+        margin-bottom: .7em;
+        font-size: .95em;
+        line-height: 1.2em;
+       
+        
+    }
+    span{
+        color: #020817;
+        font-size: 2.5em;
+    }
+    h4{
+        color:#020817;
+        margin-left:1.5em;
+
+    }
+
+}
+
+/* message profile pic circle*/
+.img-circle{
+    
+    width:4em;
+    height:4em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+
+}
+
+/* setting bg image to all circles */
+.c1{
+    background-color: #eae0fe ;
+    .img-circle{
+        background-image: url(image/c1.webp);
+    background-size: cover;
+    }
+}
+.c2{
+    background-color: #eae0fe ;
+    .img-circle{
+        background-image: url(image/c2.webp);
+        background-size: cover;
+    }
+}
+.c3{
+    background-color: #e9fbe9 ;
+    .img-circle{
+        background-image: url(image/c3.webp);
+        background-size: cover;
+    }
+}
+.c4{
+    background-color: #f0f2ff ;
+    .img-circle{
+        background-image: url(image/c4.webp);
+        background-size: cover;
+    }
+}
+.c5{
+    background-color: #f0f2ff ;
+    .img-circle{
+        background-image: url(image/c5.webp);
+        background-size: cover;
+    }
+}
+.c6{
+    background-color: #fff7e3 ;
+    .img-circle{
+        background-image: url(image/c6.webp);
+        background-size: cover;
+    }
+}
+.c7{
+    background-color: #f0f2ff ;
+    .img-circle{
+        background-image: url(image/c7.webp);
+        background-size: cover;
+    }
+}
+.c8{
+    background-color: #eae0fe ;
+    .img-circle{
+        background-image: url(image/c8.webp);
+        background-size: cover;
+    }
+}
+.c9{
+    background-color: #fff7e3 ;
+    .img-circle{
+        background-image: url(image/c9.webp);
+        background-size: cover;
+    }
+}
+.c10{
+    background-color: #eae0fe ;
+    .img-circle{
+        background-image: url(image/c10.webp);
+        background-size: cover;
+    }
+}
+.c11{
+    background-color: #fff7e3 ;
+    .img-circle{
+        background-image: url(image/c11.webp);
+        background-size: cover;
+    }
+}
+
+/* FAQs section*/
+.FAQs,.answer-box{
+    border:.15em solid black;
+    border-radius: 2em;
+    box-shadow: 0.1em .1em 0.1em black;
+}
+
+.FAQs{
+    height:35em;
+    margin:1em .1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2em;
+}
+
+/* Questions & Answers heading */
+.faq-header{
+    color: #020817;
+    text-align: start;
+    font-weight:600;
+    font-size: 2em;
+    margin-bottom:.5em;
+
+}
+
+/* faq & its answer */
+.questions,.answers{
+   
+    height:24em;
+    width:43%;
+    align-items: center;
+    
+}
+
+/* answer box on right side */
+.answer-box{
+    height:20.5em;
+    background-color: #fcd671;
+}
+
+.question{
+    border: .1em solid rgb(168, 167, 167);
+    height:3.2em;
+    border-radius: 1em;
+    margin-bottom:1em;
+    color:#020817;
+    padding-left:1em;
+    text-align: start; 
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.circle{
+   
+    margin-right:1em;
+}
+
+.answer-circle,.circle{
+    background-color: white;
+    border-radius: 50%;
+    height:1em;
+    width:1em;
+}
+
+.answer-circle{
+    margin:1.3em;
+}
+
+.answer{
+    
+    height:13em;
+    margin:0 1.5em;
+    color: #020817;
+    line-height: 1.3em;
+    text-align: start;
+    display: block;
+    
+}
+
+/* changes color of questions clicked using js */
+.question.black{
+    background-color: #020817;
+    color:white;
+}
+
+/* initially no answer is displayed */
+.answer{
+    display:none;
+}
+
+/* textarea to take feedback from users */
+textarea{
+    height:9em;
+    width:90%;
+    border:none;
+    padding:1em;
+    font-size: 1em;
+    border-radius: 1em;
+    color:  rgb(116, 116, 116);
+    resize: none;
+}
+
+textarea:focus{
+    outline:none;
+}
+
+
+.submit{
+    margin-top:.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* button to add attachments along with the feedback */
+.attachment{
+    background-color:transparent;
+    border:.15em dashed black;
+    border-radius: .6em;
+    width:2.4em;
+    box-shadow: 0em .1em .2em 0em black;
+    height:2em;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;  
+}
+
+/* submit button */
+.send{
+    background-color: #020817;
+    border:none;
+    cursor: pointer;
+    width:90%;
+    border-radius: 2em;
+    font-weight: 600; 
+}
+
+/* --------footer starts------------ */
+.footer{
+    height:37em;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* conclusion and links */
+.footer-text{
+    height:21em;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 5em;
+    padding-right:2em;
+    padding-left:2em;
+}
+ 
+.conclude{ 
+    width:25%;   
+}
+
+.conclude-text{
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.list-header{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.quick-links,.download-app,.company{
+    list-style-type:none;
+    line-height:2.5em;
+}
+
+.list-points,.hiring{
+    font-size:1.1em;
+}
+
+.list-points:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.hiring{
+    span{
+        color:#7185f3;
+    }
+    span:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+/* social media links */
+.social-media{
+    
+    height:4em;
+    margin-top:2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-circle{
+    
+    background-color: white;
+    height:2.5em;
+    width:2.5em;
+    border-radius: 50%;
+    
+    i{
+        margin-top:.5em;
+        margin-left:.45em;
+        font-size: 1.3em;
+    }
+
+}
+
+/* company name */
+.bluelearn{
+    cursor:default;
+    text-align: center;
+    color: #f0eded3a;
+    font-size: 10.5em;   
+    
+}
+
+/* --------footer ends--------------- */
+
+/* --------media queries-------- */
+@media (max-width: 1024px) {
+    .number{
+        gap:.5em;
+    }
+    .heading{
+        font-size: 2.5em;
+    }
+    .description{
+        font-size:1.3em;
+    }
+    .apple-store{
+        display: none;
+    }
+    .mini-box{
+       display:flex;
+       font-size:.7em;
+       height:42em;
+      justify-content: center;
+       align-items: center;
+       flex-direction: column;
+      
+      
+       
+    }
+    .mini-text{
+       margin:1em;
+        width:45em;
+       
+        
+    }
+    .mini-image{
+       margin:1em;
+       
+    }
+    .nav-bar{
+        font-size: .8em;
+    }
+    
+    
+    .one-place{
+        
+        flex-direction: column;
+        height:50em;
+        font-size: .8em;
+    }
+    .side-scroll{
+        align-self: center;
+    }
+    
+    .feedback-text,.faq-header{
+        font-size: .7em;
+    }
+    .faq-header{
+        font-size: 1.4em;
+    }
+    
+    .download-app{
+        display: none;
+    }
+    .conclude{
+        width:16em;
+    }
+    .bluelearn{
+        font-size: 7.5em;
+    }
+    .footer{
+        height: 33em;
+    }
+   
+}
+
+@media (max-width: 880px){
+    .number{
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 715px){
+    .heading{
+        font-size: 2em;
+    }
+    .description{
+        font-size:1em;
+    }
+    .signup{
+        display: none;
+    }
+    .number{
+        font-size: .7em;
+    }
+    .questions,.answers{
+        font-size: .9em;
+    }
+    
+    .footer-text{
+        font-size: .8em;
+    }
+    .conclude{
+        width:16em;
+    }
+    .footer{
+        height:20em;
+    }
+}
+
+/* ----------- INDEX PAGE ENDS ^_^ --------------*/
